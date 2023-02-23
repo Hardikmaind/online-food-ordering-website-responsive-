@@ -1,0 +1,78 @@
+/* navigation */
+
+.navbar {
+    flex-direction: column;
+}
+
+.navbar li ul a {
+    font-size: 1rem;
+    padding-bottom: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* home section */
+#home {
+    height: 370px;
+    padding: 3px 28px;
+}
+
+#home::before {
+    height: 480px;
+}
+
+#home p {
+    /* it is recommended that we should follow the rem */
+    /* jitna bada font size ..utna bada padding k andar ka container(matlab actual thing inside the container i.e is it can be anything like the img or any text...etc....if we incre the font size then i think it also breaks(here breaks mean go beyond the height and weight and of the container) width and height of the container  */
+    font-size: 13px;
+
+}
+
+
+/* services section */
+#services {
+    flex-direction: column;
+}
+#services .box {
+    margin: 2px 0px;
+    padding: 14px;
+
+    margin-bottom: 20px;
+}
+
+
+/* client section */
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    width: 66px;
+    padding: 2px 6px;
+    /* this will not squeez the images */
+    height: auto;
+}
+
+
+
+
+
+/* contact section */
+
+#contact-box form{
+    width: 80%;
+}
+
+
+/* footer */
+
+
+/* utility classes */
+.h-primary {
+    font-size: 26px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
+}
